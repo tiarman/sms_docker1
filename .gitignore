@@ -1,54 +1,54 @@
-# .gitignore
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
+# # .gitignore
+# # Python
+# __pycache__/
+# *.py[cod]
+# *$py.class
+# *.so
+# .Python
+# env/
+# build/
+# develop-eggs/
+# dist/
+# downloads/
+# eggs/
+# .eggs/
+# lib/
+# lib64/
+# parts/
+# sdist/
+# var/
+# *.egg-info/
+# .installed.cfg
+# *.egg
 
-# Docker
-.env # <-- এটি গুরুত্বপূর্ণ! .env ফাইল Git এ যোগ হবে না
-.env.dev
-.env.prod
+# # Docker
+# .env # <-- এটি গুরুত্বপূর্ণ! .env ফাইল Git এ যোগ হবে না
+# .env.dev
+# .env.prod
 
-# IDE
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
+# # IDE
+# .idea/
+# .vscode/
+# *.sublime-project
+# *.sublime-workspace
 
-# Node
-node_modules/
-npm-debug.log
-yarn-error.log
+# # Node
+# node_modules/
+# npm-debug.log
+# yarn-error.log
 
-# Testing
-.coverage
-htmlcov/
-.pytest_cache/
+# # Testing
+# .coverage
+# htmlcov/
+# .pytest_cache/
 
-# Logs
-logs/
-*.log
+# # Logs
+# logs/
+# *.log
 
-# Credentials
-**/credentials/
-*secret*
-*password*
-*.pem
-*.key
+# # Credentials
+# **/credentials/
+# *secret*
+# *password*
+# *.pem
+# *.key
