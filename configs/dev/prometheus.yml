@@ -1,0 +1,5 @@
+# একটি খালি scrape_configs সেকশন দরকার
+scrape_configs:
+  - job_name: 'placeholder' # একটি ডামি জব নাম
+    static_configs:
+      - targets: ['localhost:9999'] # এটি ডামি টার্গেট, আসল সার্ভিসের টার্গেট পরে যোগ করতে হবে
